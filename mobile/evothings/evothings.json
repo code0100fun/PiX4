@@ -1,0 +1,39 @@
+{
+  "name": "PiX4",
+  "version": "1.0.0",
+  "title": "Raspberry Pi 3 - System Info",
+  "description": "App to control your Raspberry Pi 3 using BLE.",
+  "tags": [
+    {
+      "label": "nodejs",
+      "type": "platform"
+    },
+    {
+      "label": "raspberrypi",
+      "type": "vendor"
+    },
+    {
+      "label": "ble",
+      "type": "comm"
+    }
+  ],
+  "libraries": [
+    {
+      "name": "jquery",
+      "version": "2.1.1"
+    }
+  ],
+  "plugins": [
+    {
+      "name": "cordova-plugin-ble",
+      "version": "2.0.0"
+    }
+  ],
+  "index-file": "index.html",
+  "app-dir": "app",
+  "uuid": "a8ada89c-02e7-49dd-a142-6559e2aeb3ad",
+  "icon": "app-icon.png",
+  "doc-url": "http://evothings.com/2.2/doc/examples/rpi3-system-information.html",
+  "long-description": "App to control your Raspberry Pi 3 using BLE.",
+  "cordova-id": "com.evothings.examples.rpi3systeminformation"
+}
